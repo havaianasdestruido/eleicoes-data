@@ -51,12 +51,26 @@ python scripts/scrape_tse.py --output-dir out    # custom output directory
 Configurable via env vars: `TSE_DATA_URL`, `TSE_PAGE_URL`, `OUTPUT_DIR`,
 `SCRAPE_TIMEOUT`, `SCRAPE_RETRIES`, `SCRAPE_BACKOFF`.
 
-## Tests
+## Tests & Interactive Analysis Notebooks
 
-Offline end-to-end tests (local mock server + a real captured TSE payload):
+Offline end-to-end scraper tests (local mock server + a real captured TSE payload):
 
 ```bash
 python tests/test_scrape_tse.py
+```
+
+Interactive Jupyter Notebooks in `test/` for exploring the scraped TSE snapshots (with rendered outputs and graphs persisted directly inside each `.ipynb` file):
+
+- `test/01_candidate_results_overview.ipynb` — Candidate rankings, nominal vote shares, Pareto concentration, and age/ticket profiles.
+- `test/02_turnout_sections_and_vote_types.ipynb` — Registered electorate, turnout vs. abstention, polling section density, and valid/blank/null vote breakdowns.
+- `test/03_counting_progression_and_late_votes.ipynb` — Comparison between partial (`95.01%`) and final (`100.00%`) totalization, isolating the final `4.99%` batch of sections.
+- `test/04_parties_coalitions_and_second_round_scenarios.ipynb` — Party/coalition/federation structures and 2nd-round (runoff) vote-transfer sensitivity modeling.
+- `test/05_scraper_timeline_and_telemetry.ipynb` — Multi-snapshot time-series across all 43 captured JSON files, scrape intervals, and payload telemetry.
+
+To execute and verify all notebooks (keeping embedded `image/png` outputs saved inside the `.ipynb` files):
+
+```bash
+python tests/test_notebooks.py
 ```
 
 ## Disclaimer

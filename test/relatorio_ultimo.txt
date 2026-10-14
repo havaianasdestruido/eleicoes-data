@@ -1,0 +1,22 @@
+
+# Relatório - presidente_br_20261014_192215Z.json
+- **Data coleta (UTC):** 2026-10-14T19:22:15Z
+- **TSE gerado:** 05/10/2026 12:51:47
+- **Seções:** 499248/499248 (100.0%)
+- **Eleitorado:** 158,745,502
+- **Comparecimento:** 125,275,835 (78.92%)
+- **Votos válidos:** 119,300,788
+
+## Ranking
+1. FLAVIO BOLSONARO (PL) - 56,104,503 (47.03%) - 2º turno
+2. LULA (PT) - 53,879,538 (45.16%) - 2º turno
+3. ESCRITOR AUGUSTO CURY (AVANTE) - 3,448,569 (2.89%) - Não eleito
+4. RENAN SANTOS (MISSÃO) - 2,675,887 (2.24%) - Não eleito
+5. RONALDO CAIADO (PSD) - 2,605,148 (2.18%) - Não eleito
+6. ZEMA (NOVO) - 326,488 (0.27%) - Não eleito
+7. SAMARA (UP) - 122,911 (0.10%) - Não eleito
+8. HERTZ DIAS (PSTU) - 43,103 (0.04%) - Não eleito
+9. CLARIANA BARAO (DC) - 40,043 (0.03%) - Não eleito
+10. EDMILSON COSTA (PCB) - 22,693 (0.02%) - Não eleito
+11. VETERINÁRIO WILSON GRASSI (DEMOCRATA) - 16,881 (0.01%) - Não eleito
+12. RUI COSTA PIMENTA (PCO) - 15,024 (0.01%) - Não eleito
